@@ -56,7 +56,7 @@ class Letmedecide extends React.Component{
     return(
       <div>
         <Header />
-        <Action disable={this.state.options.length > 0} pickone={this.pickOne} />
+        <Action disable={this.state.options.length > 1} pickone={this.pickOne} />
         <div className="row justify-content-center align-items-center options">
           <div className="col-md-8 col-xs-6">
             <p>
